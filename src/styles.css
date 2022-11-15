@@ -1,0 +1,47 @@
+.App {
+  align-items: center;
+  background-color: #d5e1ef;
+  display: grid;
+  height: 100vh;
+  justify-items: center;
+}
+
+.qrImage {
+  box-sizing: border-box;
+  padding: 10%;
+  width: 100%;
+}
+
+.qrCard {
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.qrDescription {
+  padding: 0 10% 10% 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .qrCard {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 633px) {
+  .qrCard {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  .App {
+    background-color: #d5e1ef;
+    display: grid;
+    align-items: center;
+    height: 100vh;
+  }
+}
